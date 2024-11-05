@@ -16,8 +16,8 @@ const url ='https://www.linkedin.com/';
         await new Promise(r => setTimeout(r, 7000));
         await page.screenshot({path: './pag2.png'});
         await page.waitForSelector('#username', { state: 'visible' });
-        await page.fill('input#username', '3192521931');
-        await page.fill('input#password', 'dhnr7Hm?y29');
+        await page.fill('input#username', '31925*****');
+        await page.fill('input#password', 'dhn*******');
 
         await page.screenshot({path: './pag3.png'});
         await page.click('css=button');
